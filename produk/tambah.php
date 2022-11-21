@@ -4,6 +4,15 @@
 
 <link rel="stylesheet" href="../style.css">
 
+<div class="navbar">
+    <a href="../merek/index.php">Merek</a>
+    <a href="../jenis/index.php">Jenis</a>
+    <a href="index.php">Produk</a>
+</div>
+<br>
+<br>
+<br>
+<br>
 <form action="proses.php" method="POST">
     Nama:<input type="text" name="nama" placeholder="Nama">
     <br> 

@@ -11,10 +11,21 @@
     }
 ?>
 
+<link rel="stylesheet" href="../style.css">
+
+<div class="navbar">
+    <a href="../merek/index.php">Merek</a>
+    <a href="index.php">Jenis</a>
+    <a href="../produk/index.php">Produk</a>
+</div>
+<br>
+<br>
+<br>
+<br>
 <form action="proses.php" method="POST">
     <input type="hidden" name="id" value="<?php echo $id; ?>">
     <input type="text" name="nama" value="<?php echo $nama; ?>">
-    <button type="submit" name="Ubah">
+    <button type="submit" name="Ubah" class="btn">
         Simpan
     </button>
 

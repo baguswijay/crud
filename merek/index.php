@@ -47,10 +47,6 @@
         </table>
           
     </div>
-
-    <br>
-    <br>
-    <br>
     <div class="button-center">
         <a class="button" href="tambah.php">Tambah</a>
     </div>
